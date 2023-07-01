@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="form-header-wrapper">
+    <header>Meme-A-Tron 9000</header>
+
+    <form class="inputs" action="generate-meme">
+      <label for="image-link">Image Link</label>
+      <input type="text" class="input-field" id="image-link" class="text-input" placeholder="Image Link">
+      <label for="top-text">Top Text</label>
+      <input type="text" class="input-field" id="top-text-input" class="text-input" maxlength="30" placeholder="Top Text">
+      <label for="bottom-text">Bottom Text</label>
+      <input type="text" class="input-field" id="bottom-text-input" class="text-input" maxlength="30" placeholder="Bottom Text">
+
+      <input type="submit" id="submit-button" value="Generate Meme">
+    </form>
+  </div>
+
+  <main class="main-section">
+  </main>
+
+<script src="./script.js"></script>
+</body>
+</html>
